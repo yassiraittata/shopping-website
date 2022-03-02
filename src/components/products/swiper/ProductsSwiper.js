@@ -17,7 +17,7 @@ const ProductsSwiper = () => {
   return (
     <>
       <Card>
-        <div className={classes.category_title}>Clothes</div>
+        <div className={classes.category_title}>Clothes - Most recent</div>
         <Swiper
           slidesPerView={4}
           spaceBetween={30}

@@ -1,9 +1,8 @@
 import "./App.css";
 import Categories from "./components/categories/Categories";
-import ProductsList from "./components/products/ProductsList";
 import ProductsSwiper from "./components/products/swiper/ProductsSwiper";
-import MainHeader from "./components/UI/header/MainHeader";
-import MainLayout from "./components/UI/layout/MainLayout";
+import MainLayout from "./components/UI/layout/main/MainLayout";
+import Footer from "./components/UI/layout/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
         <ProductsSwiper />
         <ProductsSwiper />
       </MainLayout>
+      <Footer />
     </>
   );
 }

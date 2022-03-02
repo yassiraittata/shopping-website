@@ -1,0 +1,54 @@
+.footer {
+  background-color: #333;
+  padding: 5rem 0;
+}
+
+.footer_wraper {
+  max-width: 118.5rem;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 20%;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.social a {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.social a:hover ion-icon {
+  color: #6ac2b5;
+  transform: scale(1.2);
+}
+
+.copyright {
+  flex: 0 0 60%;
+}
+
+.copyright_tag {
+  color: #6ac2b5;
+  margin-bottom: 1.5rem;
+}
+
+.copyright_text {
+  font-size: 1.3rem;
+  color: #f0f0f0;
+}
