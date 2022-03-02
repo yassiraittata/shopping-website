@@ -15,7 +15,7 @@ const MainHeader = () => {
           <nav className={classes.nav}>
             <li className={classes.nav_item}>
               <a href="#" className={classes.nav_link}>
-                <ion-icon name="person-outline"></ion-icon>
+                <ion-icon name="person-circle-outline"></ion-icon>
                 <label>Sign up</label>
               </a>
             </li>

@@ -1,0 +1,42 @@
+.container {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.categories {
+  flex: 0 0 20%;
+  background-color: #fff;
+  height: 45rem;
+  border-radius: 5px;
+  box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.05);
+  padding: 1.5rem 1rem;
+}
+
+.categories_list {
+  list-style: none;
+}
+
+.categories_list li {
+  margin-bottom: 0.5rem;
+  height: 3rem;
+  font-size: 1.35rem;
+}
+
+.categories_list li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.categories_list li a ion-icon {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  color: #6ac2b5;
+}
+
+.categories_list li:hover a {
+  color: #6ac2b5;
+}

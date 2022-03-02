@@ -1,0 +1,37 @@
+.category_title {
+  background-color: #6ac2b5;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.swiper {
+  padding: 3rem;
+}
+
+.SwiperSlide {
+  /* background-color: red; */
+}
+
+.products_link {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.products_link a {
+  margin: auto;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6ac2b5;
+  text-decoration: none;
+}
+
+.products_link a:hover {
+  border-bottom: 2px solid #6ac2b5;
+}
