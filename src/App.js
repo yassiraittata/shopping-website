@@ -3,6 +3,9 @@ import Categories from "./components/categories/Categories";
 import ProductsSwiper from "./components/products/swiper/ProductsSwiper";
 import MainLayout from "./components/UI/layout/main/MainLayout";
 import Footer from "./components/UI/layout/footer/Footer";
+import ProductsList from "./components/products/product-list/ProductsList";
+import ProductDetail from "./components/productDetail/ProductDetail";
+import Cart from "./components/cart/cart/Cart";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
         <ProductsSwiper />
         <ProductsSwiper />
         <ProductsSwiper />
+        {/* <ProductsList />  */}
+        {/* <ProductDetail /> */}
+        {/* <Cart /> */}
       </MainLayout>
       <Footer />
     </>

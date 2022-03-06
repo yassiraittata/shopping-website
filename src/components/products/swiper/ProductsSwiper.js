@@ -15,7 +15,7 @@ import ProductSwiperItem from "./ProductSwiperItem";
 
 const ProductsSwiper = () => {
   return (
-    <>
+    <div className={classes.swiper_wrapper}>
       <Card>
         <div className={classes.category_title}>Clothes - Most recent</div>
         <Swiper
@@ -64,7 +64,7 @@ const ProductsSwiper = () => {
           <a href="#">See all products &rarr;</a>
         </div>
       </Card>
-    </>
+    </div>
   );
 };
 

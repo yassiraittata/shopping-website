@@ -2,4 +2,5 @@
   max-width: 118.5rem;
   margin: auto;
   margin-top: 2rem;
+  min-height: calc(100vh - 10rem - 22.8rem);
 }

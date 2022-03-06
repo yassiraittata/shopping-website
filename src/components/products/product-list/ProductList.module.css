@@ -1,0 +1,33 @@
+.container {
+  max-width: 90rem;
+  text-align: center;
+  margin: auto;
+}
+
+.list_headline {
+  background-color: #6ac2b5;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort_button {
+  border: none;
+  background-color: #fff;
+  color: #6ac2b5;
+  padding: .7rem 2rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.5rem;
+}

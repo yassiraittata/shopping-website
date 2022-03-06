@@ -1,0 +1,64 @@
+.cart_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart {
+  flex-basis: 70%;
+  background: #52b8a9;
+}
+
+.cart_title {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+/*--------------- TOTAL PRICE ----------------*/
+.total {
+  flex-basis: 25%;
+}
+
+.total > * {
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+.price_tag {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.price_tag h3 {
+  font-size: 1.5rem;
+}
+
+.price_tag h2 {
+  font-size: 2.2rem;
+  color: #555;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.5rem;
+  background-color: #6ac2b5;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #52b8a9;
+}
