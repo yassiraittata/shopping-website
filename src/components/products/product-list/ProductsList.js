@@ -23,18 +23,6 @@ const ProductsList = () => {
           <ProductItem />
           <ProductItem />
           <ProductItem />
-          {/* <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem />
-        <ProductSwiperItem /> */}
         </div>
       </Card>
     </div>

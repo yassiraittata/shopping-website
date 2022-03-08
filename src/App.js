@@ -6,7 +6,8 @@ import Footer from "./components/UI/layout/footer/Footer";
 import ProductsList from "./components/products/product-list/ProductsList";
 import ProductDetail from "./components/productDetail/ProductDetail";
 import Cart from "./components/cart/cart/Cart";
-import Login from "./components/authentication/Login";
+import Home from "./pages/Home";
+import Router from "./Router/Router";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         {/* <ProductsList />  */}
         {/* <ProductDetail /> */}
         {/* <Cart /> */}
-        <Login />
+        <Router />
       </MainLayout>
       <Footer />
     </>

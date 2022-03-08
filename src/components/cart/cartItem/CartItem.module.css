@@ -7,8 +7,32 @@
   display: flex;
   padding: 2rem;
   margin-bottom: 2rem;
-  background-color: blue;
-} 
+  /* background-color: blue; */
+  position: relative;
+}
+
+.remove_btn {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  background-color: transparent;
+  border: 1px solid #52b8a9;
+  color: #52b8a9;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove_btn:hover {
+  background-color: #52b8a9;
+  color: #fff;
+}
+
+button:disabled {
+  background-color: #ccc !important;
+  border-color: #ccc !important;
+  color: #555 !important;
+}
 
 .product_detail {
   flex-basis: 70%;
